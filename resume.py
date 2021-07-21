@@ -154,23 +154,13 @@ def write_pdf(html: str, prefix: str = "resume", chrome: str = "") -> None:
             )
         else:
             raise exc
-    finally:
-        # We use this try-finally rather than TemporaryDirectory's context
-        # manager to be able to catch the exception caused by
-        # https://bugs.python.org/issue26660 on Windows
-        try:
-            shutil.rmtree(tmpdir.name)
-        except PermissionError as exc:
-            logging.warning(f"Could not delete {tmpdir.name}")
-            logging.info(exc)
-
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "file",
-        help="markdown input file [resume.md]",
-        default="resume.md",
+        help="markdown input file [README.md]",
+        default="README.md",
         nargs="?",
     )
     parser.add_argument(

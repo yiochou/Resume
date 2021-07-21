@@ -1,54 +1,32 @@
-# resume.md
+<!-- The (first) h1 will be used as the <title> of the HTML page -->
+# 周易佑 (Yio Chou)
 
-![Resume](resume.png)
+<!-- The unordered list immediately after the h1 will be formatted on a single
+line. It is intended to be used for contact details -->
+- <hi@yiochou.com>
+- 0927309966
+- [yiochou.com](http://yiochou.com)
+- 台北市 內湖區
 
-Write your resume in
-[Markdown](https://raw.githubusercontent.com/mikepqr/resume.md/main/resume.md),
-style it with [CSS](resume.css), output to [HTML](resume.html) and
-[PDF](resume.pdf).
+<!-- The paragraph after the h1 and ul and before the first h2 is optional. It
+is intended to be used for a short summary. -->
+Hi
+## Experience
 
-## Prerequisites
+<!-- You have to wrap the "left" and "right" half of these headings in spans by
+hand -->
+### SoundOn 2020/7 ~ 2021/7 </span>
 
- - Python ≥ 3.6
- - [python-markdown](https://python-markdown.github.io/) (`pip install
-   markdown`)
- - Optional, required for PDF output: Google Chrome or Chromium
+TODO
 
-## Usage
+### LJIT 2018/5 ~ 2020/2</span>
 
- 1. Download [resume.py](resume.py), [resume.md](resume.md) and
-    [resume.css](resume.css) (or make a copy of this repository by [using the
-    template](https://github.com/mikepqr/resume.md/generate), forking, or
-    cloning).
+TODO
 
- 2. Edit [resume.md](resume.md) (the placeholder text is taken with thanks from
-    the [JSON Resume Project](https://jsonresume.org/themes/))
+## Projects
 
- 3. Run `python3 resume.py` to build resume.html and resume.pdf.
+## Education
 
-     - Use `--no-html` or `--no-pdf` to disable HTML or PDF output.
+## Skills
 
-     - Use `--chrome-path=/path/to/chrome` if resume.py cannot find your Chrome
-       or Chromium executable.
-
-## Customization
-
-Edit [resume.css](resume.css) to change the appearance of your resume. The
-default style is extremely generic, which is perhaps what you want in a resume,
-but CSS gives you a lot of flexibility. See, e.g. [The Tech Resume
-Inside-Out](https://www.thetechinterview.com/) for good advice about what a
-resume should look like (and what it should say).
-
-Change the appearance of the PDF version (without affecting the HTML version) by
-adding rules under the `@media print` CSS selector.
-
-Change the margins and paper size of the PDF version by editing the [`@page` CSS
-rule](https://developer.mozilla.org/en-US/docs/Web/CSS/%40page/size).
-
-[python-markdown](https://python-markdown.github.io/) is by default a very basic
-markdown compiler, but it has a number of optional extensions that you may want
-to enable (by adding to [the list of extensions
-here](https://github.com/mikepqr/resume.md/blob/5d99e02bf65ff6a2a0ccd18c1a0255c26ec59377/resume.py#L41)).
-<code><a
-href="https://python-markdown.github.io/extensions/attr_list/">attr_list</a></code>
-in particular may by useful if you are editing the CSS.
+ - Web development: HTML, CSS, JavaScript
