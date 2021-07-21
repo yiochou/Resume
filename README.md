@@ -6,11 +6,12 @@ line. It is intended to be used for contact details -->
 - <hi@yiochou.com>
 - 0927309966
 - [yiochou.com](http://yiochou.com)
-- 台北市/內湖區
+- 台北市 內湖區
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
 Hi
+I'm Yio
 ## Experience
 
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
