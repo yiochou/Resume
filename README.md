@@ -15,11 +15,11 @@ Hi
 
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
-### SoundOn 2020/7 ~ 2021/7 </span>
+### SoundOn 2020/7 ~ 2021/7
 
 TODO
 
-### LJIT 2018/5 ~ 2020/2</span>
+### LJIT 2018/5 ~ 2020/2
 
 TODO
 
