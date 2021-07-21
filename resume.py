@@ -185,7 +185,7 @@ if __name__ == "__main__":
     else:
         logging.basicConfig(level=logging.INFO, format="%(message)s")
 
-    prefix, _ = os.path.splitext(args.file)
+    prefix = "resume"
 
     with open(args.file, encoding="utf-8") as mdfp:
         md = mdfp.read()
