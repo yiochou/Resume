@@ -4,6 +4,7 @@ body {
     font: 1.1em "Times New Roman";
     line-height: 1.2;
     margin: 40px 0;
+    font-family: Trebuchet MS;
 }
 #resume {
     margin: 0 auto;
@@ -15,11 +16,11 @@ body {
     -webkit-box-shadow: 2px 2px 4px #AAAAAA;
 }
 h1 {
-    text-transform: uppercase;
     text-align: center;
     font-size: 200%;
-    margin: 0;
+    margin: 16;
     padding: 0;
+    font-family: Georgia;
 }
 h2 {
     border-bottom: 1px solid #000000;
@@ -27,6 +28,7 @@ h2 {
     font-size: 130%;
     margin: 1em 0 0 0;
     padding: 0;
+    font-family: Trebuchet MS;
 }
 h3 {
     font-size: 100%;
@@ -34,6 +36,11 @@ h3 {
     padding: 0;
     display: flex;
     justify-content: space-between;
+}
+h5 {
+    margin: 0;
+    font-size: 14;
+    opacity: 0.8;
 }
 p {
     margin: 0 0 0.5em 0;
@@ -64,6 +71,14 @@ h1 + ul > li:last-child:after {
 h1 + ul + p {
     margin: 1em 0;
 }
+
+a {
+    color: #000000;
+}
+a:link {
+    text-decoration: none;
+}
+
 @media print {
     body {
         font-size: 10pt;
