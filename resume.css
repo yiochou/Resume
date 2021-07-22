@@ -79,6 +79,10 @@ a:link {
     text-decoration: none;
 }
 
+hr {
+    border-width: 0;
+}
+
 @media print {
     body {
         font-size: 10pt;

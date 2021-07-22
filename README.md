@@ -11,6 +11,7 @@ line. It is intended to be used for contact details -->
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
 
+---
 
 ## Work Experience
 
@@ -23,16 +24,21 @@ TODO
 
 TODO
 
+---
 ## Education
 ### <span> 國立中央大學 資訊工程系 </span> 2013/9 - 2017/7
 ##### Major in **Computer Science**.
 ### <span> 國立彰化高中 </span> 2010/9 - 2013/7
+
+---
 
 ## Skills
  - Frontend：React, Redux, HTML, Javascript
  - Backend：NodeJS, Typescript, Golang, MySQL, Firebase, Postgres, Redis, MongoDB
  - DevOps：k8s, GCP(GKE), CircleCI, Docker
  - Others: Git, FFmpeg
+
+---
 
 ## Interests
 Dancing, Listening Music, Jogging
