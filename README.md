@@ -7,7 +7,6 @@ line. It is intended to be used for contact details -->
 - <span>✉️</span> <hi@yiochou.com>
 - <span>📞</span> 0927309966
 
-<br>
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
 
@@ -21,8 +20,12 @@ hand -->
 TODO
 
 ### <span> LJIT 利頡資訊 </span> 2018/5 - 2020/2
-
-TODO
+  - 為專案公司，所以接觸到的技術多元，從前端一路接觸到後端，而後專職後端開發。
+  - 參與 Code Review，並時常在內部讀書會上分享技術。
+  - 參與過的專案：
+    - 區塊鏈前端應用(類 Fomo3D)，使用 React, Redux 開發，Webpack 打包，用 web3 與以太鏈發起交易與溝通。
+    - 影音平台前後端，使用 FTP, AWS S3 作為儲存，加上多種 CDN 並讓用戶自行切換，加速影片讀取速度，DAU 約 4k。
+    - 博弈專案(未上線)，開發各種玩法演算，並用 Jest 做單元測試。實作登入(認證)系統，包含二階段驗證。
 
 ---
 ## Education

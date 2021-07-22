@@ -82,6 +82,9 @@ a:link {
 hr {
     border-width: 0;
 }
+li {
+    line-height: 1.5;
+}
 
 @media print {
     body {
