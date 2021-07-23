@@ -3,9 +3,9 @@
 
 <!-- The unordered list immediately after the h1 will be formatted on a single
 line. It is intended to be used for contact details -->
-- <span>🏠</span> [yiochou.com](http://yiochou.com)
+- <span>🏡</span> [yiochou.com](http://yiochou.com)
 - <span>✉️</span> <hi@yiochou.com>
-- <span>📞</span> 0927309966
+- <span>📱</span>0927309966
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
@@ -17,7 +17,13 @@ is intended to be used for a short summary. -->
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
 ### <span> SoundOn 聲浪科技 </span> 2020/7 - 2021/7
-TODO
+  - 開發 SoundOn Podcast Hosting / SoundOn Player 的後端需求，並優化既有程式碼。
+  - 部署應用到 GKE (k8s)，並在 GCP 上建立 metrics 及 alerting policies，整合 Slack 後主動通知異常事件發生。
+  - 使用 Google Dataflow 建立 ETL Job 來處理/分析資料，並在 Google Data Studio 做視覺化報表，供其他部門分析與下判斷。
+  - 在無 downtime 的目標下，移除原先使用的 Firestore (NoSQL)，而改用 Postgres 作為 DB，一致化資料格式後，搬移舊資料。
+  - 協助將 DB 及數據資料從 us-central 搬到 asia-east，大幅降低 latency。
+  - 開發 7 天上線的 SoundClub 專案 (類 Clubhouse)。
+  - 支援前端 (React, Redux), App 端 (Flutter)。
 
 ### <span> LJIT 利頡資訊 </span> 2018/5 - 2020/2
   - 為專案公司，所以接觸到的技術多元，從前端一路接觸到後端，而後專職後端開發。
@@ -37,9 +43,8 @@ TODO
 
 ## Skills
  - Frontend：React, Redux, HTML, Javascript
- - Backend：NodeJS, Typescript, Golang, MySQL, Firebase, Postgres, Redis, MongoDB
- - DevOps：k8s, GCP(GKE), CircleCI, Docker
- - Others: Git, FFmpeg
+ - Backend：NodeJS, Typescript, Golang, MySQL, Firebase, Postgres, Redis, MongoDB, k8s, GCP(GKE), CircleCI, Docker
+ - Others:  Git, Google Data Studio, OneSignal
 
 ---
 
