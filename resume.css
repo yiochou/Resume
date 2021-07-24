@@ -39,8 +39,10 @@ h3 {
 }
 h5 {
     margin: 0;
+    margin-bottom: 12;
     font-size: 14;
     opacity: 0.8;
+    line-height: 0.6;
 }
 p {
     margin: 0 0 0.5em 0;
@@ -107,6 +109,12 @@ li {
     }
     h3 {
         font-size: 11pt;
+    }
+    h5 {
+        font-size: 9pt;
+        opacity: 0.8;
+        line-height: 0.6;
+        margin-bottom: 8;
     }
     /* Make links black in PDF */
     /* Move this outside the print block to apply this in HTML too */

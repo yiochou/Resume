@@ -44,8 +44,10 @@ h3 {
 }
 h5 {
     margin: 0;
+    margin-bottom: 12;
     font-size: 14;
     opacity: 0.8;
+    line-height: 0.6;
 }
 p {
     margin: 0 0 0.5em 0;
@@ -113,6 +115,12 @@ li {
     h3 {
         font-size: 11pt;
     }
+    h5 {
+        font-size: 9pt;
+        opacity: 0.8;
+        line-height: 0.6;
+        margin-bottom: 8;
+    }
     /* Make links black in PDF */
     /* Move this outside the print block to apply this in HTML too */
     a, a:link, a:visited, a:hover {
@@ -164,6 +172,7 @@ is intended to be used for a short summary. -->
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
 <h3><span> SoundOn 聲浪科技 </span> 2020/7 - 2021/7</h3>
+<h5>Backend Developer</h5>
 <ul>
 <li>開發 SoundOn Podcast Hosting / SoundOn Player 的後端需求，並優化既有程式碼。</li>
 <li>部署應用到 GKE (k8s)，並在 GCP 上建 metrics 及 alerting policies，整合 Slack 後主動通知異常事件發生。</li>
@@ -174,6 +183,7 @@ hand -->
 <li>支援前端 (React, Redux, 設定 Prerender), App 端 (Flutter)。</li>
 </ul>
 <h3><span> LJIT 利頡資訊 </span> 2018/5 - 2020/2</h3>
+<h5>Backend Developer</h5>
 <ul>
 <li>為專案公司，所以接觸到的技術多元，從前端一路接觸到後端，而後專職後端開發。</li>
 <li>參與 Code Review，並時常在內部讀書會上分享技術。</li>
