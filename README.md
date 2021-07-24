@@ -18,12 +18,12 @@ is intended to be used for a short summary. -->
 hand -->
 ### <span> SoundOn 聲浪科技 </span> 2020/7 - 2021/7
   - 開發 SoundOn Podcast Hosting / SoundOn Player 的後端需求，並優化既有程式碼。
-  - 部署應用到 GKE (k8s)，並在 GCP 上建立 metrics 及 alerting policies，整合 Slack 後主動通知異常事件發生。
+  - 部署應用到 GKE (k8s)，並在 GCP 上建 metrics 及 alerting policies，整合 Slack 後主動通知異常事件發生。
   - 使用 Google Dataflow 建立 ETL Job 來處理/分析資料，並在 Google Data Studio 做視覺化報表，供其他部門分析與下判斷。
   - 在無 downtime 的目標下，移除原先使用的 Firestore (NoSQL)，而改用 Postgres 作為 DB，一致化資料格式後，搬移舊資料。
   - 協助將 DB 及數據資料從 us-central 搬到 asia-east，大幅降低 latency。
   - 開發 7 天上線的 SoundClub 專案 (類 Clubhouse)。
-  - 支援前端 (React, Redux), App 端 (Flutter)。
+  - 支援前端 (React, Redux, 設定 Prerender), App 端 (Flutter)。
 
 ### <span> LJIT 利頡資訊 </span> 2018/5 - 2020/2
   - 為專案公司，所以接觸到的技術多元，從前端一路接觸到後端，而後專職後端開發。

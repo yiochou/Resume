@@ -25,7 +25,7 @@ h1 {
     font-size: 200%;
     margin: 16;
     padding: 0;
-    font-family: Georgia;
+    font-family: Georgia, serif;
 }
 h2 {
     border-bottom: 1px solid #000000;
@@ -106,11 +106,18 @@ li {
         box-shadow: none;
         -webkit-box-shadow: none;
     }
+    h2 {
+        font-size: 14pt;
+        margin-bottom: 4pt;
+    }
+    h3 {
+        font-size: 11pt;
+    }
     /* Make links black in PDF */
     /* Move this outside the print block to apply this in HTML too */
     a, a:link, a:visited, a:hover {
         color: #000000;
-        text-decoration: underline;
+        text-decoration: none;
     }
 }
 @page {
@@ -159,12 +166,12 @@ hand -->
 <h3><span> SoundOn 聲浪科技 </span> 2020/7 - 2021/7</h3>
 <ul>
 <li>開發 SoundOn Podcast Hosting / SoundOn Player 的後端需求，並優化既有程式碼。</li>
-<li>部署應用到 GKE (k8s)，並在 GCP 上建立 metrics 及 alerting policies，整合 Slack 後主動通知異常事件發生。</li>
+<li>部署應用到 GKE (k8s)，並在 GCP 上建 metrics 及 alerting policies，整合 Slack 後主動通知異常事件發生。</li>
 <li>使用 Google Dataflow 建立 ETL Job 來處理/分析資料，並在 Google Data Studio 做視覺化報表，供其他部門分析與下判斷。</li>
 <li>在無 downtime 的目標下，移除原先使用的 Firestore (NoSQL)，而改用 Postgres 作為 DB，一致化資料格式後，搬移舊資料。</li>
 <li>協助將 DB 及數據資料從 us-central 搬到 asia-east，大幅降低 latency。</li>
 <li>開發 7 天上線的 SoundClub 專案 (類 Clubhouse)。</li>
-<li>支援前端 (React, Redux), App 端 (Flutter)。</li>
+<li>支援前端 (React, Redux, 設定 Prerender), App 端 (Flutter)。</li>
 </ul>
 <h3><span> LJIT 利頡資訊 </span> 2018/5 - 2020/2</h3>
 <ul>

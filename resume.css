@@ -20,7 +20,7 @@ h1 {
     font-size: 200%;
     margin: 16;
     padding: 0;
-    font-family: Georgia;
+    font-family: Georgia, serif;
 }
 h2 {
     border-bottom: 1px solid #000000;
@@ -101,11 +101,18 @@ li {
         box-shadow: none;
         -webkit-box-shadow: none;
     }
+    h2 {
+        font-size: 14pt;
+        margin-bottom: 4pt;
+    }
+    h3 {
+        font-size: 11pt;
+    }
     /* Make links black in PDF */
     /* Move this outside the print block to apply this in HTML too */
     a, a:link, a:visited, a:hover {
         color: #000000;
-        text-decoration: underline;
+        text-decoration: none;
     }
 }
 @page {
