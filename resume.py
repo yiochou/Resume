@@ -94,7 +94,7 @@ def title(md: str) -> str:
     raise ValueError("Cannot find any lines that look like markdown headings")
 
 
-def make_html(md: str, prefix: str = "index") -> str:
+def make_html(md: str) -> str:
     """
     Compile md to HTML and prepend/append preamble/postamble.
 
@@ -104,7 +104,7 @@ def make_html(md: str, prefix: str = "index") -> str:
         with open("resume.css") as cssfp:
             css = cssfp.read()
     except FileNotFoundError:
-        print(prefix + ".css not found. Output will by unstyled.")
+        print("resume.css not found. Output will by unstyled.")
         css = ""
     return "".join(
         (
@@ -115,9 +115,9 @@ def make_html(md: str, prefix: str = "index") -> str:
     )
 
 
-def write_pdf(html: str, prefix: str = "index", chrome: str = "") -> None:
+def write_pdf(html: str, prefix: str = "index", outputFolder: str = "dist", chrome: str = "") -> None:
     """
-    Write html to prefix.pdf
+    Write html to dist/prefix.pdf
     """
     chrome = chrome or guess_chrome_path()
 
@@ -140,7 +140,7 @@ def write_pdf(html: str, prefix: str = "index", chrome: str = "") -> None:
             [
                 chrome,
                 *options,
-                f"--print-to-pdf={prefix}.pdf",
+                f"--print-to-pdf={outputFolder}/{prefix}.pdf",
                 "data:text/html;base64," + html64.decode("utf-8"),
             ],
             check=True,
@@ -186,15 +186,16 @@ if __name__ == "__main__":
         logging.basicConfig(level=logging.INFO, format="%(message)s")
 
     prefix = "index"
+    outputFolder = 'dist'
 
     with open(args.file, encoding="utf-8") as mdfp:
         md = mdfp.read()
-    html = make_html(md, prefix=prefix)
+    html = make_html(md)
 
     if not args.no_html:
-        with open(prefix + ".html", "w", encoding="utf-8") as htmlfp:
+        with open(outputFolder + "/" + prefix + ".html", "w", encoding="utf-8") as htmlfp:
             htmlfp.write(html)
             logging.info(f"Wrote {htmlfp.name}")
 
     if not args.no_pdf:
-        write_pdf(html, prefix=prefix, chrome=args.chrome_path)
+        write_pdf(html, prefix=prefix, outputFolder=outputFolder, chrome=args.chrome_path)
