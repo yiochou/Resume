@@ -94,14 +94,14 @@ def title(md: str) -> str:
     raise ValueError("Cannot find any lines that look like markdown headings")
 
 
-def make_html(md: str, prefix: str = "resume") -> str:
+def make_html(md: str, prefix: str = "index") -> str:
     """
     Compile md to HTML and prepend/append preamble/postamble.
 
-    Insert <prefix>.css if it exists.
+    Insert resume.css if it exists.
     """
     try:
-        with open(prefix + ".css") as cssfp:
+        with open("resume.css") as cssfp:
             css = cssfp.read()
     except FileNotFoundError:
         print(prefix + ".css not found. Output will by unstyled.")
@@ -115,7 +115,7 @@ def make_html(md: str, prefix: str = "resume") -> str:
     )
 
 
-def write_pdf(html: str, prefix: str = "resume", chrome: str = "") -> None:
+def write_pdf(html: str, prefix: str = "index", chrome: str = "") -> None:
     """
     Write html to prefix.pdf
     """
@@ -185,7 +185,7 @@ if __name__ == "__main__":
     else:
         logging.basicConfig(level=logging.INFO, format="%(message)s")
 
-    prefix = "resume"
+    prefix = "index"
 
     with open(args.file, encoding="utf-8") as mdfp:
         md = mdfp.read()
