@@ -108,7 +108,7 @@ def make_html(md: str) -> str:
         css = ""
     return "".join(
         (
-            preamble.format(title=title(md), css=css),
+            preamble.format(title="Yio's Resume", css=css),
             markdown.markdown(md, extensions=["smarty"]),
             postamble,
         )
