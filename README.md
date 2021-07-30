@@ -46,10 +46,10 @@ hand -->
 
 ## Skills
  - Frontend：React, Redux, HTML, Javascript
- - Backend：NodeJS, Typescript, Golang, MySQL, Firebase, Postgres, Redis, MongoDB, k8s, GCP(GKE), CircleCI, Docker
+ - Backend：NodeJS, Typescript, Golang, MySQL, Firebase, Postgres, Redis, MongoDB, k8s, GCP(GKE), CircleCI, Docker, BullMQ
  - Others:  Git, Google Data Studio, OneSignal
 
 ---
 
 ## Interests
-Dancing, Listening Music, Jogging
+Dancing, Listening Music, Jogging, 紫微斗數
