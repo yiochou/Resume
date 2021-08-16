@@ -1,3 +1,3 @@
 .PHONY: resume
 resume:
-	@python resume.py
+	@python3 resume.py

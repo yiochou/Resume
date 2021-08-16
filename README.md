@@ -46,7 +46,7 @@ hand -->
 
 ## Skills
  - Frontend：React, Redux, HTML, Javascript
- - Backend：NodeJS, Typescript, Golang, MySQL, Firebase, Postgres, Redis, MongoDB, k8s, GCP(GKE), CircleCI, Docker, BullMQ
+ - Backend：NodeJS, Typescript, MySQL, Firebase, Postgres, Redis, MongoDB, k8s, GCP(GKE), CircleCI, Docker, BullMQ
  - Others:  Git, Google Data Studio, OneSignal
 
 ---
