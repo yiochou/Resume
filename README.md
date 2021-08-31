@@ -34,7 +34,7 @@ hand -->
   - 積極參加公司內讀書會，並分享過 SOLID, React/Redux, Database Transaction/Isolation ... 
   - 參與過的專案：
     - 區塊鏈前端應用(類 Fomo3D)，使用 React, Redux 開發，Webpack 打包，用 web3 與以太鏈發起交易與溝通。
-    - 影音平台前後端，使用 FTP, AWS S3 作為儲存，加上多種 CDN 並讓用戶自行切換，加速影片讀取速度，DAU 約 4k。
+    - 影音平台前後端，使用 FTP, AWS S3 作為儲存，加上多種 CDN 並讓用戶自行切換，以加速影片讀取速度。
     - 博弈專案(未上線)，開發各種玩法演算，並用 Jest 做單元測試。實作登入(認證)系統，包含二階段驗證。
 
 ---
@@ -46,8 +46,8 @@ hand -->
 ---
 
 ## Skills
- - Frontend：React, Redux, HTML, Javascript
- - Backend：NodeJS, Typescript, Golang, MySQL, Firebase, Postgres, Redis, MongoDB, k8s, GCP(GKE), Terraform, CircleCI, Docker, BullMQ
+ - Frontend：React, Redux
+ - Backend：NodeJS, Golang, MySQL, Firebase, Postgres, Redis, MongoDB, k8s, GCP(GKE), Terraform, CircleCI, Docker, BullMQ
  - Others:  Git, Google Data Studio, OneSignal
 
 ---
