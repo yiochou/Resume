@@ -15,7 +15,7 @@ is intended to be used for a short summary. -->
 ## Summary 
 
 - 3 年的軟體開發經驗，主要使用的語言為 NodeJS 與 Golang，NodeJS 有扎實的實戰工作經驗，Golang 做過個人的 Side Project。
-- 在攥寫程式碼的時候，注重可維護性及可閱讀性，並以 SOLID 的觀念下去設計。
+- 攥寫程式碼時，注重可維護性及可閱讀性，並以 SOLID 的觀念下去設計。
 - 在資料庫上 RDB 及 NoSQL 都使用過，根據其特性設計對應 Schema，並依據需求建立合理的 Index。
 - 有 GCP, K8S 的經驗，部署應用到 K8S 上，並建立監控系統，主動通知異常發生。
 - 會寫前端，使用 React/Redux 在實戰上，前端人力不足時能夠支援。
