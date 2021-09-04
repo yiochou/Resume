@@ -4,151 +4,155 @@
 <title>Yio's Resume</title>
 <style>
 body {
-    color: #000000;
-    background: #EEEEEE;
-    font: 1.1em "Times New Roman";
-    line-height: 1.2;
-    margin: 40px 0;
-    font-family: Trebuchet MS;
+  color: #000000;
+  background: #eeeeee;
+  font: 1em "Times New Roman";
+  line-height: 1.2;
+  margin: 40px 0;
+  font-family: Trebuchet MS;
 }
 #resume {
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 40px 60px;
-    background: #FFFFFF;
-    border: 1px solid #CCCCCC;
-    box-shadow: 2px 2px 4px #AAAAAA;
-    -webkit-box-shadow: 2px 2px 4px #AAAAAA;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 40px 60px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  box-shadow: 2px 2px 4px #aaaaaa;
+  -webkit-box-shadow: 2px 2px 4px #aaaaaa;
 }
 h1 {
-    text-align: center;
-    font-size: 200%;
-    margin: 16;
-    padding: 0;
-    font-family: Georgia, serif;
+  text-align: center;
+  font-size: 1.7em;
+  margin: 8;
+  padding: 0;
+  font-family: Georgia, serif;
 }
 h2 {
-    border-bottom: 1px solid #000000;
-    text-transform: uppercase;
-    font-size: 130%;
-    margin: 1em 0 0 0;
-    padding: 0;
-    font-family: Trebuchet MS;
+  border-bottom: 1px solid #000000;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  margin: 1em 0 0 0;
+  padding: 0;
+  font-family: Trebuchet MS;
 }
 h3 {
-    font-size: 100%;
-    margin: 0.8em 0 0.3em 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
+  font-size: 1em;
+  margin: 0.8em 0 0.3em 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  font-weight: normal;
 }
 h5 {
-    margin: 0;
-    margin-bottom: 12;
-    font-size: 14;
-    opacity: 0.8;
-    line-height: 0.6;
+  margin: 0;
+  margin-bottom: 0.8em;
+  font-size: 0.8em;
+  opacity: 0.8;
+  line-height: 0.6;
 }
 p {
-    margin: 0 0 0.5em 0;
-    padding: 0;
-    }
+  margin: 0 0 0.5em 0;
+  padding: 0;
+}
 ul {
-    padding: 0;
-    margin: 0 1.5em;
-    }
+  padding: 0;
+  margin: 0 1.5em;
+}
 /* ul immediately after h1 = contact list */
 h1 + ul {
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    }
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
 h1 + ul > li {
-    display: inline;
-    white-space: pre;
-    list-style-type: none;
+  display: inline;
+  white-space: pre;
+  list-style-type: none;
 }
 h1 + ul > li:after {
-    content: "  \2022  ";
+  content: "  |  ";
 }
 h1 + ul > li:last-child:after {
-    content: "";
+  content: "";
 }
 /* p immediately after contact list = summary */
 h1 + ul + p {
-    margin: 1em 0;
+  margin: 1em 0;
 }
 
 a {
-    color: #000000;
+  color: #000000;
 }
 a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 hr {
-    border-width: 0;
+  border-width: 0;
 }
 li {
-    line-height: 1.5;
+  line-height: 1.5;
 }
 
 @media print {
-    body {
-        font-size: 10pt;
-        margin: 0;
-        padding: 0;
-        background: none;
-    }
-    #resume {
-        margin: 0;
-        padding: 0;
-        border: 0px;
-        background: none;
-        box-shadow: none;
-        -webkit-box-shadow: none;
-    }
-    h2 {
-        font-size: 14pt;
-        margin-bottom: 4pt;
-    }
-    h3 {
-        font-size: 11pt;
-    }
-    h5 {
-        font-size: 9pt;
-        opacity: 0.8;
-        line-height: 0.6;
-        margin-bottom: 8;
-    }
-    /* Make links black in PDF */
-    /* Move this outside the print block to apply this in HTML too */
-    a, a:link, a:visited, a:hover {
-        color: #000000;
-        text-decoration: none;
-    }
+  body {
+    font-size: 9.5pt;
+    margin: 0;
+    padding: 0;
+    background: none;
+  }
+  #resume {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    background: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+  h2 {
+    font-size: 13pt;
+    margin-bottom: 4pt;
+  }
+  h3 {
+    font-size: 10pt;
+  }
+  h5 {
+    font-size: 8pt;
+    opacity: 0.8;
+    line-height: 0.6;
+    margin-bottom: 8;
+  }
+  /* Make links black in PDF */
+  /* Move this outside the print block to apply this in HTML too */
+  a,
+  a:link,
+  a:visited,
+  a:hover {
+    color: #000000;
+    text-decoration: none;
+  }
 }
 @page {
-    /* Change margins and paper size of PDF */
-    /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
-    size: letter;
-    margin: 0.5in 0.8in;
+  /* Change margins and paper size of PDF */
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
+  size: letter;
+  margin: 0.5in 0.8in;
 }
 @media screen and (max-width: 800px) {
-    body {
-        font-size: 16pt;
-        margin: 0;
-        padding: 0;
-        background: #FFFFFF !important;
-    }
-    #resume {
-        margin: 0;
-        padding: 1em;
-        border: 0px;
-        background: none;
-        box-shadow: none;
-        -webkit-box-shadow: none;
-    }
+  body {
+    font-size: 16pt;
+    margin: 0;
+    padding: 0;
+    background: #ffffff !important;
+  }
+  #resume {
+    margin: 0;
+    padding: 1em;
+    border: 0px;
+    background: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
 }
 
 </style>
@@ -168,29 +172,40 @@ line. It is intended to be used for contact details -->
 is intended to be used for a short summary. -->
 
 <hr />
+<h2>Summary</h2>
+<ul>
+<li>3 年的軟體開發經驗，主要使用的語言為 NodeJS 與 Golang，NodeJS 有扎實的實戰工作經驗，Golang 做過個人的 Side Project。</li>
+<li>在攥寫程式碼的時候，注重可維護性及可閱讀性，並以 SOLID 的觀念下去設計。</li>
+<li>在資料庫上 RDB 及 NoSQL 都使用過，根據其特性設計對應 Schema，並依據需求建立合理的 Index。</li>
+<li>有 GCP, K8S 的經驗，部署應用到 K8S 上，並建立監控系統，主動通知異常發生。</li>
+<li>會寫前端，使用 React/Redux 在實戰上，前端人力不足時能夠支援。</li>
+</ul>
+<hr />
 <h2>Work Experience</h2>
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
 <h3><span> SoundOn 聲浪科技 </span> 2020/7 - 2021/7</h3>
 <h5>Backend Developer</h5>
+<h5>Tech: NodeJS, PostgresSQL, GCP, K8S, BigQuery, Dataflow, CircleCI, Firebase, React</h5>
 <ul>
 <li>開發 SoundOn Podcast Hosting / SoundOn Player 的後端需求，規劃後實作並優化既有程式碼。</li>
 <li>檢測分析 SQL，並加上合理的 Index 優化過慢的 Query。</li>
-<li>部署應用到 GKE (k8s)，並在 GCP 上建 metrics 及 alerting policies，整合 Slack 後主動通知異常事件發生。</li>
+<li>部署應用到 GKE (K8S)，並在 GCP 上建立監控系統，整合 Slack 後主動通知異常事件發生。</li>
 <li>使用 Google Dataflow 建立 ETL Job 來處理/分析資料，並在 Google Data Studio 做視覺化報表，供其他部門分析與下判斷。</li>
 <li>在無 downtime 的目標下，移除原先使用的 Firestore (NoSQL)，而改用 Postgres 作為 DB，一致化資料格式後，搬移舊資料。</li>
-<li>開發 7 天上線的 SoundClub 專案 (類 Clubhouse)。</li>
+<li>開發 7 天上線的 SoundClub 專案 (類似 Clubhouse)。</li>
 <li>支援前端 (React, Redux, 設定 Prerender), App 端 (Flutter)。</li>
 </ul>
 <h3><span> LJIT 利頡資訊 </span> 2018/5 - 2020/2</h3>
 <h5>Backend Developer</h5>
+<h5>Tech: NodeJS, Express.js, MongoDB, MySQL, Redis, AWS S3, React/Redux, Webpack, Docker</h5>
 <ul>
 <li>為專案公司，所以接觸到的技術多元，從前端一路接觸到後端，而後專職後端開發。</li>
 <li>積極參加公司內讀書會，並分享過 SOLID, React/Redux, Database Transaction/Isolation &hellip; </li>
 <li>參與過的專案：<ul>
-<li>區塊鏈前端應用(類 Fomo3D)，使用 React, Redux 開發，Webpack 打包，用 web3 與以太鏈發起交易與溝通。</li>
-<li>影音平台前後端，使用 FTP, AWS S3 作為儲存，加上多種 CDN 並讓用戶自行切換，以加速影片讀取速度。</li>
-<li>博弈專案(未上線)，開發各種玩法演算，並用 Jest 做單元測試。實作登入(認證)系統，包含二階段驗證。</li>
+<li>Dapp 遊戲(類似資金盤)：修改智能合約並部署到以太坊，前端使用 React, Redux 開發，並用 web3 與部署的智能合約溝通，最後以 Webpack 打包應用。</li>
+<li>影音平台：開發前端與後端，根據需求規劃及討論 DB Schema，並使用 AWS S3 儲存影音檔案，加上 CDN 加速影片的讀取速度，也實作了以 HMAC Token 認證的演算機制。</li>
+<li>博弈專案：開發各式彩票開獎演算法，用 Jest 寫單元測試，並寫腳本方便把 csv 的資料轉成 test cases，節省團隊攥寫測試的時間。負責實作認證(登入)系統，包含二階段驗證。</li>
 </ul>
 </li>
 </ul>
@@ -202,12 +217,11 @@ hand -->
 <hr />
 <h2>Skills</h2>
 <ul>
-<li>Frontend：React, Redux</li>
-<li>Backend：NodeJS, Golang, MySQL, Firebase, Postgres, Redis, MongoDB, k8s, GCP(GKE), Terraform, CircleCI, Docker, BullMQ</li>
-<li>Others:  Git, Google Data Studio, OneSignal</li>
-</ul>
-<hr />
-<h2>Interests</h2>
-<p>Dancing, Listening Music, Jogging, 紫微斗數</p></div>
+<li>Programming Languages: Javascript(NodeJS, TypeScript), Golang</li>
+<li>Database: MySQL, PostgresSQL, MongoDB, Firestore, Redis</li>
+<li>Infra: GCP(GKE, BigQuery, Dataflow, CloudRun), AWS S3, K8S, Terraform, CircleCI</li>
+<li>Frontend Framework: React, Redux, JQuery</li>
+<li>Other: Git, Docker, Firebase, OneSignal, BullMQ, MailGun, TapPay, SOLID</li>
+</ul></div>
 </body>
 </html>

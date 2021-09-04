@@ -12,30 +12,42 @@ is intended to be used for a short summary. -->
 
 ---
 
+## Summary 
+
+- 3 年的軟體開發經驗，主要使用的語言為 NodeJS 與 Golang，NodeJS 有扎實的實戰工作經驗，Golang 做過個人的 Side Project。
+- 在攥寫程式碼的時候，注重可維護性及可閱讀性，並以 SOLID 的觀念下去設計。
+- 在資料庫上 RDB 及 NoSQL 都使用過，根據其特性設計對應 Schema，並依據需求建立合理的 Index。
+- 有 GCP, K8S 的經驗，部署應用到 K8S 上，並建立監控系統，主動通知異常發生。
+- 會寫前端，使用 React/Redux 在實戰上，前端人力不足時能夠支援。
+
+---
+
 ## Work Experience
 
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
 ### <span> SoundOn 聲浪科技 </span> 2020/7 - 2021/7
 ##### Backend Developer
+##### Tech: NodeJS, PostgresSQL, GCP, K8S, BigQuery, Dataflow, CircleCI, Firebase, React
 
   - 開發 SoundOn Podcast Hosting / SoundOn Player 的後端需求，規劃後實作並優化既有程式碼。
   - 檢測分析 SQL，並加上合理的 Index 優化過慢的 Query。
-  - 部署應用到 GKE (k8s)，並在 GCP 上建 metrics 及 alerting policies，整合 Slack 後主動通知異常事件發生。
+  - 部署應用到 GKE (K8S)，並在 GCP 上建立監控系統，整合 Slack 後主動通知異常事件發生。
   - 使用 Google Dataflow 建立 ETL Job 來處理/分析資料，並在 Google Data Studio 做視覺化報表，供其他部門分析與下判斷。
   - 在無 downtime 的目標下，移除原先使用的 Firestore (NoSQL)，而改用 Postgres 作為 DB，一致化資料格式後，搬移舊資料。
-  - 開發 7 天上線的 SoundClub 專案 (類 Clubhouse)。
+  - 開發 7 天上線的 SoundClub 專案 (類似 Clubhouse)。
   - 支援前端 (React, Redux, 設定 Prerender), App 端 (Flutter)。
-
+  
 ### <span> LJIT 利頡資訊 </span> 2018/5 - 2020/2
 ##### Backend Developer
+##### Tech: NodeJS, Express.js, MongoDB, MySQL, Redis, AWS S3, React/Redux, Webpack, Docker
 
   - 為專案公司，所以接觸到的技術多元，從前端一路接觸到後端，而後專職後端開發。
   - 積極參加公司內讀書會，並分享過 SOLID, React/Redux, Database Transaction/Isolation ... 
   - 參與過的專案：
-    - 區塊鏈前端應用(類 Fomo3D)，使用 React, Redux 開發，Webpack 打包，用 web3 與以太鏈發起交易與溝通。
-    - 影音平台前後端，使用 FTP, AWS S3 作為儲存，加上多種 CDN 並讓用戶自行切換，以加速影片讀取速度。
-    - 博弈專案(未上線)，開發各種玩法演算，並用 Jest 做單元測試。實作登入(認證)系統，包含二階段驗證。
+    - Dapp 遊戲(類似資金盤)：修改智能合約並部署到以太坊，前端使用 React, Redux 開發，並用 web3 與部署的智能合約溝通，最後以 Webpack 打包應用。
+    - 影音平台：開發前端與後端，根據需求規劃及討論 DB Schema，並使用 AWS S3 儲存影音檔案，加上 CDN 加速影片的讀取速度，也實作了以 HMAC Token 認證的演算機制。
+    - 博弈專案：開發各式彩票開獎演算法，用 Jest 寫單元測試，並寫腳本方便把 csv 的資料轉成 test cases，節省團隊攥寫測試的時間。負責實作認證(登入)系統，包含二階段驗證。
 
 ---
 ## Education
@@ -46,11 +58,8 @@ hand -->
 ---
 
 ## Skills
- - Frontend：React, Redux
- - Backend：NodeJS, Golang, MySQL, Firebase, Postgres, Redis, MongoDB, k8s, GCP(GKE), Terraform, CircleCI, Docker, BullMQ
- - Others:  Git, Google Data Studio, OneSignal
-
----
-
-## Interests
-Dancing, Listening Music, Jogging, 紫微斗數
+ - Programming Languages: Javascript(NodeJS, TypeScript), Golang
+ - Database: MySQL, PostgresSQL, MongoDB, Firestore, Redis
+ - Infra: GCP(GKE, BigQuery, Dataflow, CloudRun), AWS S3, K8S, Terraform, CircleCI
+ - Frontend Framework: React, Redux, JQuery
+ - Other: Git, Docker, Firebase, OneSignal, BullMQ, MailGun, TapPay, SOLID
