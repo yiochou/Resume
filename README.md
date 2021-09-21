@@ -51,7 +51,7 @@ hand -->
 
 ---
 ## Education
-### <span> 國立中央大學 資訊工程系 </span> 2013/9 - 2017/7
+### <span> 國立中央大學 </span> 2013/9 - 2017/7
 ##### Major in **Computer Science**.
 ### <span> 國立彰化高中 </span> 2010/9 - 2013/7
 
