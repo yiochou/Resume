@@ -36,7 +36,7 @@ hand -->
 - Developed new features of podcast hosting service and podcast player. Refactored the legacy code base.
 - Built alerting system on GCP, and integrated with Slack to notify developers actively if incident occrrs.
 - Scheduled ETL cron jobs to process data stored in BigQuery, and aggregated for the purpose of analytics and podcast ranking.
-- Migrated database from Firestore (NoSQL) to PostgresSQL without downtime, meanwhile, cleaned up dirty documents to consistent records.
+- Migrated database from Firestore (NoSQL) to PostgresSQL without downtime, and cleaned up dirty documents to consistent records.
 - Supported frontend team (using React, Redux, and configure Prerender), app team (using Flutter)。
 
 ### <span> LJIT.io, Frontend/Backend Engineer </span> 2018/5 - 2020/2
@@ -45,7 +45,7 @@ hand -->
 
 - LJIT.io was an outsourcing company. Developed various projects and touched multiple technology. At first, I was frontend developer, but then dedicated to backend development.
 - On blockchain game (dapp) project: Modified a smart contract and deployed to ethereum. Besides, developed website with React, Redux, and interacted with deployed smart contract.
-- On video streaming platform project: Developed both frontend and backend, and designed database schema. Stored video files to aws s3, and deployed CDN to improve experience of viewers.
+- On video streaming platform project: Developed both frontend and backend, and designed database schema. Stored video files to aws s3, and deployed CDN to improve viewer experience.
 - On gambling platform project: Developed various algorithms of lotteries and wrote unit tests. Helped team spending less times on writing tests, by programming a script that converted test cases to unit tests code. Introduced two-factor authentication into login process.
 - Took an active part in study group, and shared topics like SOLID, React/Redux, Database Transaction/Isolation and so on.
 
