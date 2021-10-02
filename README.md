@@ -43,10 +43,10 @@ hand -->
 
 ##### Tech: NodeJS, Express.js, MongoDB, MySQL, Redis, AWS S3, React/Redux, Webpack, Docker
 
-- LJIT.io was an outsourcing company. Developed various projects and utilized multiple technology. Played both frontend and backend roles.
+- LJIT.io was an outsourcing company. Developed various projects and utilized multiple technologies. Played both frontend and backend roles.
 - Blockchain game (dapp) project: Modified a smart contract and deployed to ethereum. Developed website with React, Redux, and web3 to interact with the deployed smart contract.
 - Video streaming platform project: Engineered frontend, backend, and database schema design. Stored video files on AWS S3, and deployed CDN for better viewer experience.
-- Gambling platform project: Implemented various lottery algorithms and unit tests. Saved the team significant time on writing tests by introducing template for test code auto generation. Launched/Established two-factor authentication.
+- Gambling platform project: Implemented various lottery algorithms and unit tests. Saved the team significant time on writing tests by introducing template for test code auto generation. Launched two-factor authentication.
 - Took an active part in study group, and shared topics like SOLID, React/Redux, Database Transaction/Isolation and so on.
 
 ---
