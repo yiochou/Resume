@@ -18,9 +18,9 @@ is intended to be used for a short summary. -->
 
 - 3+ years of experience in backend development, including programming, database schema design, troubleshooting, application development, and performance optimizing.
 - Solid experience in Node.js. Ability to write maintainable and readable code that follows SOLID principles.
-- The ability to break down requirements to minor tasks and implement these tasks on time.
-- Hands-on experience in building appliaction from scratch.
-- Challenge enjoying and being responsible at work.
+- The ability to break down requirements into minor tasks and complete them on time.
+- Hands-on experience in building application from scratch.
+- Enjoy challenges and take full ownership for the results of my decisions.
 
 ---
 
@@ -34,19 +34,19 @@ hand -->
 ##### Tech: NodeJS, PostgresSQL, GCP, K8S, BigQuery, Dataflow, CircleCI, Firebase, React
 
 - Developed new features of podcast hosting service and podcast player. Refactored the legacy code base.
-- Built alerting system on GCP, and integrated with Slack to notify developers actively if incident occrrs.
-- Scheduled ETL cron jobs to process data stored in BigQuery, and aggregated for the purpose of analytics and podcast ranking.
-- Migrated database from Firestore (NoSQL) to PostgresSQL without downtime, and cleaned up dirty documents to consistent records.
-- Supported frontend team (using React, Redux, and configure Prerender), app team (using Flutter)。
+- Built alert system on GCP, and integrated with Slack to notify developers in real-time.
+- Scheduled ETL cron jobs to process and aggregate BigQuery data for performance analytics of podcast shows and podcast rankings.
+- Migrated database from Firestore (NoSQL) to PostgresSQL with zero downtime, and transformed dirty documents into consistent records.
+- Supported frontend team (React, Redux, and Prerender), app team (Flutter)。
 
 ### <span> LJIT.io, Frontend/Backend Engineer </span> 2018/5 - 2020/2
 
 ##### Tech: NodeJS, Express.js, MongoDB, MySQL, Redis, AWS S3, React/Redux, Webpack, Docker
 
-- LJIT.io was an outsourcing company. Developed various projects and touched multiple technology. At first, I was frontend developer, but then dedicated to backend development.
-- On blockchain game (dapp) project: Modified a smart contract and deployed to ethereum. Besides, developed website with React, Redux, and interacted with deployed smart contract.
-- On video streaming platform project: Developed both frontend and backend, and designed database schema. Stored video files to aws s3, and deployed CDN to improve viewer experience.
-- On gambling platform project: Developed various algorithms of lotteries and wrote unit tests. Helped team spending less times on writing tests, by programming a script that converted test cases to unit tests code. Introduced two-factor authentication into login process.
+- LJIT.io was an outsourcing company. Developed various projects and utilized multiple technology. Played both frontend and backend roles.
+- Blockchain game (dapp) project: Modified a smart contract and deployed to ethereum. Developed website with React, Redux, and web3 to interact with the deployed smart contract.
+- Video streaming platform project: Engineered frontend, backend, and database schema design. Stored video files on AWS S3, and deployed CDN for better viewer experience.
+- Gambling platform project: Implemented various lottery algorithms and unit tests. Saved the team significant time on writing tests by introducing template for test code auto generation. Launched/Established two-factor authentication.
 - Took an active part in study group, and shared topics like SOLID, React/Redux, Database Transaction/Isolation and so on.
 
 ---
