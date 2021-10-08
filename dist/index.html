@@ -1,6 +1,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Yio's Resume</title>
 <style>
 body {
@@ -37,7 +38,7 @@ h2 {
 }
 h3 {
   font-size: 1.2em;
-  margin: 0.8em 0 0.3em 0;
+  margin: 0.3em 0 0.3em 0;
   padding: 0;
   display: flex;
   justify-content: space-between;
@@ -45,7 +46,7 @@ h3 {
 }
 h5 {
   margin: 0;
-  margin-bottom: 0.8em;
+  margin-bottom: 0.5em;
   font-size: 0.8em;
   opacity: 0.8;
   line-height: 0.6;
@@ -94,6 +95,29 @@ li {
   line-height: 1.5;
 }
 
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 10pt;
+    margin: 0;
+    padding: 0;
+    background: #ffffff !important;
+  }
+  #resume {
+    margin: 0;
+    padding: 1em;
+    border: 0px;
+    background: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+  h3 {
+    display: block;
+  }
+  h5 {
+    line-height: 1 !important;
+  }
+}
+
 @media print {
   body {
     font-size: 9.5pt;
@@ -137,22 +161,6 @@ li {
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
   size: letter;
   margin: 0.5in 0.8in;
-}
-@media screen and (max-width: 800px) {
-  body {
-    font-size: 16pt;
-    margin: 0;
-    padding: 0;
-    background: #ffffff !important;
-  }
-  #resume {
-    margin: 0;
-    padding: 1em;
-    border: 0px;
-    background: none;
-    box-shadow: none;
-    -webkit-box-shadow: none;
-  }
 }
 
 </style>
@@ -200,7 +208,7 @@ hand -->
 <h5>Tech: NodeJS, Express.js, MongoDB, MySQL, Redis, AWS S3, React/Redux, Webpack, Docker</h5>
 <ul>
 <li>LJIT.io was an outsourcing company. Developed various projects and utilized multiple technologies. Played both frontend and backend roles.</li>
-<li>Blockchain game (dapp) project: Modified a smart contract and deployed to ethereum. Developed website with React, Redux, and web3 to interact with the deployed smart contract.</li>
+<li>Blockchain game (dapp) project: Modified a smart contract and deployed to ethereum. Developed website with React, Redux, and web3.js to interact with the deployed smart contract.</li>
 <li>Video streaming platform project: Engineered frontend, backend, and database schema design. Stored video files on AWS S3, and deployed CDN for better viewer experience.</li>
 <li>Gambling platform project: Implemented various lottery algorithms and unit tests. Saved the team significant time on writing tests by introducing template for test code auto generation. Launched two-factor authentication.</li>
 <li>Took an active part in study group, and shared topics like SOLID, React/Redux, Database Transaction/Isolation and so on.</li>

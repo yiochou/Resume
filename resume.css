@@ -32,7 +32,7 @@ h2 {
 }
 h3 {
   font-size: 1.2em;
-  margin: 0.8em 0 0.3em 0;
+  margin: 0.3em 0 0.3em 0;
   padding: 0;
   display: flex;
   justify-content: space-between;
@@ -40,7 +40,7 @@ h3 {
 }
 h5 {
   margin: 0;
-  margin-bottom: 0.8em;
+  margin-bottom: 0.5em;
   font-size: 0.8em;
   opacity: 0.8;
   line-height: 0.6;
@@ -89,6 +89,29 @@ li {
   line-height: 1.5;
 }
 
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 10pt;
+    margin: 0;
+    padding: 0;
+    background: #ffffff !important;
+  }
+  #resume {
+    margin: 0;
+    padding: 1em;
+    border: 0px;
+    background: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+  h3 {
+    display: block;
+  }
+  h5 {
+    line-height: 1 !important;
+  }
+}
+
 @media print {
   body {
     font-size: 9.5pt;
@@ -132,20 +155,4 @@ li {
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
   size: letter;
   margin: 0.5in 0.8in;
-}
-@media screen and (max-width: 800px) {
-  body {
-    font-size: 16pt;
-    margin: 0;
-    padding: 0;
-    background: #ffffff !important;
-  }
-  #resume {
-    margin: 0;
-    padding: 1em;
-    border: 0px;
-    background: none;
-    box-shadow: none;
-    -webkit-box-shadow: none;
-  }
 }
