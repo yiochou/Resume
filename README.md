@@ -5,22 +5,11 @@
 <!-- The unordered list immediately after the h1 will be formatted on a single
 line. It is intended to be used for contact details -->
 
-- <span>🏡</span> [yiochou.com](http://yiochou.com)
-- <span>✉️</span> <hi@yiochou.com>
-- <span>📱</span>0927309966
+- (+886)927309966
+- hi@yiochou.com
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
-
----
-
-## Summary
-
-- 3+ years of experience in backend development, including programming, database schema design, troubleshooting, application development, and performance optimizing.
-- Solid experience in Node.js. Ability to write maintainable and readable code that follows SOLID principles.
-- The ability to break down requirements into minor tasks and complete them on time.
-- Hands-on experience in building application from scratch.
-- Enjoy challenges and take full ownership for the results of my decisions.
 
 ---
 
@@ -29,15 +18,22 @@ is intended to be used for a short summary. -->
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
 
+### <span> OneDegree, Backend Engineer </span> 2021/10 - present
+
+##### Tech: Python, PostgresSQL, SQLAlchemy
+
+- Led the team of 4 backend engineers. Planned and Assigned tasks to members. Coordinated with them to have good teamework and improve efficiency.
+- Rejuvenated core insurance modules progressively for better product usability. Developed flexible rule engine that user can write python code to calculate and make decisions.
+- Clarified numerous legacy codes with PM and senior members. Scheduled tasks and cleaned up these codes step by step.
+
 ### <span> SoundOn, Backend Engineer </span> 2020/7 - 2021/7
 
-##### Tech: NodeJS, PostgresSQL, GCP, K8S, BigQuery, Dataflow, CircleCI, Firebase, React
+##### Tech: NodeJS, PostgresSQL, GCP, K8S, BigQuery, Dataflow, CircleCI, Firebase, React, Redux
 
 - Developed new features of podcast hosting service and podcast player. Refactored the legacy code base.
-- Built alert system on GCP, and integrated with Slack to notify developers in real-time.
 - Scheduled ETL cron jobs to process and aggregate BigQuery data for performance analytics of podcast shows and podcast rankings.
 - Migrated database from Firestore (NoSQL) to PostgresSQL with zero downtime, and transformed dirty documents into consistent records.
-- Supported frontend team (React, Redux, and Prerender), app team (Flutter)。
+- Built alert system on GCP, and integrated with Slack to notify developers in real-time.
 
 ### <span> LJIT.io, Frontend/Backend Engineer </span> 2018/5 - 2020/2
 
@@ -61,7 +57,7 @@ hand -->
 
 ## Skills
 
-- Programming Languages: JavaScript(Node.js, TypeScript), Golang
+- Programming Languages: JavaScript(Node.js, TypeScript), Python, Golang
 - Database: MySQL, PostgresSQL, MongoDB, Firestore, Redis
 - Infra: GCP(GKE, BigQuery, Dataflow, CloudRun), AWS S3, K8S, Terraform, CircleCI
 - Frontend Framework: React, Redux, JQuery
