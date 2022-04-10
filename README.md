@@ -20,20 +20,21 @@ hand -->
 
 ### <span> OneDegree, Backend Engineer </span> 2021/10 - present
 
-##### Tech: Python, PostgresSQL, SQLAlchemy
+##### Tech: Python, PostgreSQL, SQLAlchemy
 
-- Led the team of 4 backend engineers. Planned and Assigned tasks to members. Coordinated with them to have good teamework and improve efficiency.
-- Rejuvenated core insurance modules progressively for better product usability. Developed flexible rule engine that user can write python code to calculate and make decisions.
-- Clarified numerous legacy codes with PM and senior members. Scheduled tasks and cleaned up these codes step by step.
+- Led a team of 4 backend engineers. Planned and assigned tasks to members. Coordinated with them to achieve effective teamwork and increased productivity by 40%.
+- Rejuvenated core insurance modules progressively for better product usability. Developed flexible rule engine for users to easily utilize the modules in python script.
+- Identified improper module definitions and corrected them to match business domain.
+- Drove the codebase clean-up. Clarified numerous legacy code with PM and senior members.
 
 ### <span> SoundOn, Backend Engineer </span> 2020/7 - 2021/7
 
-##### Tech: NodeJS, PostgresSQL, GCP, K8S, BigQuery, Dataflow, CircleCI, Firebase, React, Redux
+##### Tech: NodeJS, PostgreSQL, GCP, K8S, BigQuery, Dataflow, CircleCI, Firebase, React, Redux
 
 - Developed new features of podcast hosting service and podcast player. Refactored the legacy code base.
+- Managed applications running on GCP, K8s. Detected and optimized the slow queries in PostgreSQL.
 - Scheduled ETL cron jobs to process and aggregate BigQuery data for performance analytics of podcast shows and podcast rankings.
-- Migrated database from Firestore (NoSQL) to PostgresSQL with zero downtime, and transformed dirty documents into consistent records.
-- Built alert system on GCP, and integrated with Slack to notify developers in real-time.
+- Migrated database from Firestore (NoSQL) to PostgreSQL with zero downtime, and transformed dirty documents into consistent records.
 
 ### <span> LJIT.io, Frontend/Backend Engineer </span> 2018/5 - 2020/2
 
@@ -58,7 +59,7 @@ hand -->
 ## Skills
 
 - Programming Languages: JavaScript(Node.js, TypeScript), Python, Golang
-- Database: MySQL, PostgresSQL, MongoDB, Firestore, Redis
+- Database: MySQL, PostgreSQL, MongoDB, Firestore, Redis
 - Infra: GCP(GKE, BigQuery, Dataflow, CloudRun), AWS S3, K8S, Terraform, CircleCI
 - Frontend Framework: React, Redux, JQuery
 - Other: Git, Docker, Firebase, OneSignal, BullMQ, MailGun, TapPay, SOLID
