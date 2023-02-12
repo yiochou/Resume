@@ -6,7 +6,7 @@
 line. It is intended to be used for contact details -->
 
 - (+886)927309966
-- hi@yiochou.com
+- yiochou1227@gmail.com
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
@@ -18,13 +18,14 @@ is intended to be used for a short summary. -->
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
 
-### <span> OneDegree, Backend Engineer </span> 2021/10 - present
+### <span> OneDegree, Senior Backend Engineer </span> 2021/10 - present
 
-##### Tech: Python, PostgreSQL, SQLAlchemy
+##### Tech: Python, PostgreSQL, SQLAlchemy, GitLab CI
 
-- Led a team of 4 backend engineers. Planned and assigned tasks to members. Coordinated with them to achieve effective teamwork and increased productivity by 40%.
-- Rejuvenated core insurance modules progressively for better product usability. Developed flexible rule engine for users to easily utilize the modules in python script.
-- Identified improper module definitions and corrected them to match business domain.
+- Led a team of 4 backend engineers. Planned and assigned suitable tasks to members. Coordinated with them to achieve effective teamwork and increased productivity by 40%.
+- Rejuvenated core insurance modules progressively for better product usability. And identified improper module definitions and corrected them to match business domain.
+- Developed flexible rule engine for users to easily utilize the modules in python script.
+- Designed and implemented development tools for internal use, e.g., showing model/schema difference between tags, installing build-in data thru csv file. Helped team members to work more smoothly.
 - Drove the codebase clean-up. Clarified numerous legacy code with PM and senior members.
 
 ### <span> SoundOn, Backend Engineer </span> 2020/7 - 2021/7
