@@ -36,6 +36,7 @@ hand -->
 - Managed applications running on GCP, K8s. Detected and optimized the slow queries in PostgreSQL.
 - Scheduled ETL cron jobs to process and aggregate BigQuery data for performance analytics of podcast shows and podcast rankings.
 - Migrated database from Firestore (NoSQL) to PostgreSQL with zero downtime, and transformed dirty documents into consistent records.
+- Supported frontend team (React, Redux, and Prerender), app team (Flutter)。
 
 ### <span> LJIT.io, Frontend/Backend Engineer </span> 2018/5 - 2020/2
 
