@@ -22,9 +22,9 @@ hand -->
 
 ##### Tech: Python, PostgreSQL, SQLAlchemy, GitLab CI
 
-- Led a team of 4 backend engineers. Planned and assigned suitable tasks to members. Coordinated with them to achieve effective teamwork and increased productivity by 40%.
+- Led a team of 4 backend engineers. Planned and delegated tasks to members. Guided them through challenges, and supported their persional growth.
 - Rejuvenated core insurance modules progressively for better product usability. And identified improper module definitions and corrected them to match business domain.
-- Developed flexible rule engine for users to easily utilize the modules in python script.
+- Led the development of a flexible rule engine that enables users to easily utilize modules for writing rules in Python scripts. Additionally, led and developed numerous insurance-based features.
 - Designed and implemented development tools for internal use, e.g., showing model/schema difference between tags, installing build-in data thru csv file. Helped team members to work more smoothly.
 - Drove the codebase clean-up. Clarified numerous legacy code with PM and senior members.
 
