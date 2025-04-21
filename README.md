@@ -10,7 +10,7 @@ line. It is intended to be used for contact details -->
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
-6+ years crafting scalable backend systems, leading teams, and shipping real-world features with clean architecture in mind.
+Product-driven engineer with 6+ years of experience building scalable backend systems, leading teams, and delivering impactful features—flexible across frontend and mobile to solve real problems.
 
 ---
 
