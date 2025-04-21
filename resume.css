@@ -41,8 +41,8 @@ h3 {
 h5 {
   margin: 0;
   margin-bottom: 0.5em;
-  font-size: 0.8em;
-  opacity: 0.8;
+  font-size: 0.6em;
+  opacity: 0.6;
   line-height: 0.6;
 }
 p {
@@ -86,7 +86,7 @@ hr {
   border-width: 0;
 }
 li {
-  line-height: 1.5;
+  line-height: 1.3;
 }
 
 @media screen and (max-width: 800px) {
@@ -135,8 +135,8 @@ li {
     font-size: 11pt;
   }
   h5 {
-    font-size: 8pt;
-    opacity: 0.8;
+    font-size: 6pt;
+    opacity: 0.6;
     line-height: 0.6;
     margin-bottom: 8;
   }
