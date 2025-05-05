@@ -19,7 +19,7 @@ Product-driven engineer with 6+ years of experience building scalable backend sy
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
 
-### <span> OneDegree, Senior Backend Engineer </span> 2021/10 - present
+### <span> OneDegree, Senior Backend Engineer </span> 2021/10 - 2025/04
 
 ##### Tech: Python, PostgreSQL, SQLAlchemy, GitLab CI
 
