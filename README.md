@@ -29,7 +29,7 @@ hand -->
 - Proactively developed internal tools to streamline development workflows and reduce friction in day-to-day engineering tasks.
 - Drove legacy code cleanup by aligning with PMs and senior engineers to clarify business logic and improve maintainability.
 
-### <span> SoundOn, Backend Engineer </span> 2020/7 - 2021/7
+### <span> SoundOn, Backend Engineer </span> 2020/07 - 2021/07
 
 ##### Tech: NodeJS, PostgreSQL, GCP, K8S, BigQuery, Dataflow, CircleCI, Firebase, React, Redux
 
@@ -39,7 +39,7 @@ hand -->
 - Migrated database from Firestore (NoSQL) to PostgreSQL with zero downtime, and transformed dirty documents into consistent records.
 - Collaborated closely with frontend (React/Redux) and mobile app (Flutter) teams to ensure seamless integration and consistent delivery.
 
-### <span> LJIT.io, Frontend/Backend Engineer </span> 2018/5 - 2020/2
+### <span> LJIT.io, Frontend/Backend Engineer </span> 2018/05 - 2020/02
 
 ##### Tech: NodeJS, Express.js, MongoDB, MySQL, Redis, AWS S3, React/Redux, Webpack, Docker
 
@@ -51,7 +51,7 @@ hand -->
 
 ## Education
 
-### <span> National Central University </span> 2013/9 - 2017/7
+### <span> National Central University </span> 2013/09 - 2017/07
 
 ##### **Bachelor of Computer Science**.
 
