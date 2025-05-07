@@ -10,7 +10,7 @@ line. It is intended to be used for contact details -->
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
-Product-driven engineer with 6+ years of experience building scalable backend systems, leading teams, and delivering impactful features—flexible across frontend and mobile to solve real problems.
+Product-driven engineer with 6+ years of experience in backend and full-stack development, including 3+ years of architectural leadership. Proven track record designing scalable systems on cloud infrastructure, driving refactoring initiatives, and mentoring engineering teams to deliver stable, high-quality software.
 
 ---
 
@@ -23,20 +23,21 @@ hand -->
 
 ##### Tech: Python, PostgreSQL, SQLAlchemy, GitLab CI
 
-- Led a team of 4 backend engineers, overseeing task planning, delegation, and mentoring team members in both technical growth and career development.
-- Refactored and modernized core insurance modules to improve product usability, and aligned module design with business domain requirements.
+- Led a team of 4 backend engineers, driving architectural decisions, code quality standards, and mentoring in both technical and career development.
+- Led critical system-wide refactoring initiatives including modular redesign, legacy logic elimination, and test coverage expansion, resulting in improved reliability and team velocity.
 - Designed and built a flexible rule engine enabling users to define custom rules in Python, while also driving the delivery of key insurance-related features.
+- Acted as internal architecture advisor for projects, ensuring consistency with platform evolution and security standards.
+- Designed and implemented CI/CD pipelines using GitLab CI, enhancing delivery speed, stability, and rollback safety.
 - Proactively developed internal tools to streamline development workflows and reduce friction in day-to-day engineering tasks.
-- Drove legacy code cleanup by aligning with PMs and senior engineers to clarify business logic and improve maintainability.
 
 ### <span> SoundOn, Backend Engineer </span> 2020/07 - 2021/07
 
 ##### Tech: NodeJS, PostgreSQL, GCP, K8S, BigQuery, Dataflow, CircleCI, Firebase, React, Redux
 
 - Developed new features for the podcast hosting platform and player, and refactored legacy code to improve maintainability.
-- Managed applications running on GCP, K8s. Detected and optimized the slow queries in PostgreSQL.
-- Scheduled ETL cron jobs to process and aggregate BigQuery data for performance analytics of podcast shows and podcast rankings.
-- Migrated database from Firestore (NoSQL) to PostgreSQL with zero downtime, and transformed dirty documents into consistent records.
+- Deployed and managed backend services on GCP with Kubernetes (GKE), incorporating monitoring, autoscaling, and cost controls. Tuned PostgreSQL query performance and index usage to support high-traffic podcast analytics.
+- Orchestrated hourly ETL pipelines using BigQuery and Dataflow to aggregate podcast statistics, enabling timely insights for editorial and growth teams.
+- Maintained Firebase services while migrating core systems to PostgreSQL, ensuring data consistency and zero-downtime during migration.
 - Collaborated closely with frontend (React/Redux) and mobile app (Flutter) teams to ensure seamless integration and consistent delivery.
 
 ### <span> LJIT.io, Frontend/Backend Engineer </span> 2018/05 - 2020/02
@@ -59,8 +60,8 @@ hand -->
 
 ## Skills
 
-- **Languages**: JavaScript (TypeScript), Python  
+- **Languages**: JavaScript (TypeScript), Python (FastAPI), SQL
 - **Database**: MySQL, PostgreSQL, MongoDB, Firestore, Redis  
 - **Infrastructure**: GCP (GKE, BigQuery, Dataflow, CloudRun), AWS S3, K8s, Terraform  
 - **CI/CD & Tools**: Git, Docker, CircleCI, Firebase, BullMQ, MailGun, TapPay, OneSignal  
-- **Frontend**: React, Redux, JQuery  
+- **Frontend**: React, Redux, JQuery, HTML/CSS
