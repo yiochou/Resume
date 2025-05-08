@@ -5,8 +5,8 @@
 <!-- The unordered list immediately after the h1 will be formatted on a single
 line. It is intended to be used for contact details -->
 
-- (+886)927309966
-- yiochou1227@gmail.com
+- Phone: (+886)927309966
+- Email: yiochou1227@gmail.com
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
