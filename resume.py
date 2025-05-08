@@ -1,15 +1,13 @@
 #!/usr/bin/env python3
 import argparse
-import base64
 import itertools
 import logging
 import os
-import shutil
-import subprocess
 import sys
-import tempfile
+from pathlib import Path
 
 import markdown
+from playwright.sync_api import sync_playwright
 
 preamble = """\
 <html lang="en">
@@ -116,45 +114,24 @@ def make_html(md: str) -> str:
     )
 
 
-def write_pdf(html: str, prefix: str = "index", outputFolder: str = "dist", chrome: str = "") -> None:
-    """
-    Write html to dist/prefix.pdf
-    """
-    chrome = chrome or guess_chrome_path()
+def export_pdf_from_html(html_path: str, pdf_path: str):
+    with sync_playwright() as p:
+        browser = p.chromium.launch()
+        page = browser.new_page()
+        html_file = Path(html_path).resolve().as_uri()
+        page.goto(html_file)
 
-    html64 = base64.b64encode(html.encode("utf-8"))
-    options = [
-        "--headless",
-        "--print-to-pdf-no-header",
-        "--enable-logging=stderr",
-        "--log-level=2",
-    ]
-    # https://bugs.chromium.org/p/chromium/issues/detail?id=737678
-    if sys.platform == "win32":
-        options.append("--disable-gpu")
-
-    tmpdir = tempfile.TemporaryDirectory(prefix="resume.md_")
-    options.append(f"--crash-dumps-dir={tmpdir.name}")
-    options.append(f"--user-data-dir={tmpdir.name}")
-    try:
-        subprocess.run(
-            [
-                chrome,
-                *options,
-                f"--print-to-pdf={outputFolder}/{prefix}.pdf",
-                "data:text/html;base64," + html64.decode("utf-8"),
-            ],
-            check=True,
+        page.pdf(
+            path=pdf_path,
+            format="A4",
+            print_background=True,
+            display_header_footer=False,
         )
-        logging.info(f"Wrote {prefix}.pdf")
-    except subprocess.CalledProcessError as exc:
-        if exc.returncode == -6:
-            logging.warning(
-                "Chrome died with <Signals.SIGABRT: 6> "
-                f"but you may find {prefix}.pdf was created successfully."
-            )
-        else:
-            raise exc
+
+        browser.close()
+
+        logging.info(f"Wrote {pdf_path}")
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -187,16 +164,18 @@ if __name__ == "__main__":
         logging.basicConfig(level=logging.INFO, format="%(message)s")
 
     prefix = "index"
-    outputFolder = 'dist'
+    outputFolder = "dist"
 
     with open(args.file, encoding="utf-8") as mdfp:
         md = mdfp.read()
     html = make_html(md)
 
     if not args.no_html:
-        with open(outputFolder + "/" + prefix + ".html", "w", encoding="utf-8") as htmlfp:
+        with open(
+            outputFolder + "/" + prefix + ".html", "w", encoding="utf-8"
+        ) as htmlfp:
             htmlfp.write(html)
             logging.info(f"Wrote {htmlfp.name}")
 
     if not args.no_pdf:
-        write_pdf(html, prefix=prefix, outputFolder=outputFolder, chrome=args.chrome_path)
+        export_pdf_from_html("dist/index.html", "dist/index.pdf")
