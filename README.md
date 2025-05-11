@@ -10,7 +10,7 @@ line. It is intended to be used for contact details -->
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
-Product-driven engineer with 6+ years of experience building scalable backend systems, leading teams, and delivering impactful features—flexible across frontend and mobile to solve real problems.
+Product-driven engineer with 7+ years of experience building scalable backend systems, leading teams, and delivering impactful features—flexible across frontend and mobile to solve real problems.
 
 ---
 
@@ -34,8 +34,11 @@ hand -->
 ##### Tech: NodeJS, PostgreSQL, GCP, K8S, BigQuery, Dataflow, CircleCI, Firebase, React, Redux
 
 - Developed new features for the podcast hosting platform and player, and refactored legacy code to improve maintainability.
-- Managed applications running on GCP, K8s. Detected and optimized the slow queries in PostgreSQL.
-- Scheduled ETL cron jobs to process and aggregate BigQuery data for performance analytics of podcast shows and podcast rankings.
+- Deployed and managed backend services on GCP with Kubernetes (GKE), incorporating monitoring,
+autoscaling, and cost controls. Tuned PostgreSQL query performance and index usage to support high-traffic
+podcast analytics.
+- Orchestrated hourly ETL pipelines using BigQuery and Dataflow to aggregate podcast statistics, enabling
+timely insights for editorial and growth teams.
 - Migrated database from Firestore (NoSQL) to PostgreSQL with zero downtime, and transformed dirty documents into consistent records.
 - Collaborated closely with frontend (React/Redux) and mobile app (Flutter) teams to ensure seamless integration and consistent delivery.
 
@@ -61,6 +64,6 @@ hand -->
 
 - **Languages**: JavaScript (TypeScript), Python  
 - **Database**: MySQL, PostgreSQL, MongoDB, Firestore, Redis  
-- **Infrastructure**: GCP (GKE, BigQuery, Dataflow, CloudRun), AWS S3, K8s, Terraform  
+- **Infrastructure**: GCP (GKE, BigQuery, Dataflow, CloudRun), AWS S3, K8s, Supabase, Railway  
 - **CI/CD & Tools**: Git, Docker, CircleCI, Firebase, BullMQ, MailGun, TapPay, OneSignal  
 - **Frontend**: React, Redux, JQuery  

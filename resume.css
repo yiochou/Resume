@@ -41,7 +41,7 @@ h3 {
 h5 {
   margin: 0;
   margin-bottom: 0.5em;
-  font-size: 0.6em;
+  font-size: 0.8em;
   opacity: 0.6;
   line-height: 0.6;
 }
@@ -60,6 +60,7 @@ h1 + ul {
   padding: 0;
 }
 h1 + ul > li {
+  font-size: 1em;
   display: inline;
   white-space: pre;
   list-style-type: none;
@@ -114,7 +115,7 @@ li {
 
 @media print {
   body {
-    font-size: 9.5pt;
+    font-size: 12pt;
     margin: 0;
     padding: 0;
     background: none;
@@ -128,16 +129,16 @@ li {
     -webkit-box-shadow: none;
   }
   h2 {
-    font-size: 13pt;
+    font-size: 16pt;
     margin-bottom: 4pt;
   }
   h3 {
-    font-size: 11pt;
+    font-size: 14pt;
   }
   h5 {
-    font-size: 6pt;
+    font-size: 10pt;
     opacity: 0.6;
-    line-height: 0.6;
+    line-height: 1;
     margin-bottom: 8;
   }
   /* Make links black in PDF */

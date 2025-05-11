@@ -47,7 +47,7 @@ h3 {
 h5 {
   margin: 0;
   margin-bottom: 0.5em;
-  font-size: 0.6em;
+  font-size: 0.8em;
   opacity: 0.6;
   line-height: 0.6;
 }
@@ -66,6 +66,7 @@ h1 + ul {
   padding: 0;
 }
 h1 + ul > li {
+  font-size: 1em;
   display: inline;
   white-space: pre;
   list-style-type: none;
@@ -120,7 +121,7 @@ li {
 
 @media print {
   body {
-    font-size: 9.5pt;
+    font-size: 12pt;
     margin: 0;
     padding: 0;
     background: none;
@@ -134,16 +135,16 @@ li {
     -webkit-box-shadow: none;
   }
   h2 {
-    font-size: 13pt;
+    font-size: 16pt;
     margin-bottom: 4pt;
   }
   h3 {
-    font-size: 11pt;
+    font-size: 14pt;
   }
   h5 {
-    font-size: 6pt;
+    font-size: 10pt;
     opacity: 0.6;
-    line-height: 0.6;
+    line-height: 1;
     margin-bottom: 8;
   }
   /* Make links black in PDF */
@@ -179,7 +180,7 @@ line. It is intended to be used for contact details -->
 </ul>
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
-<p>Product-driven engineer with 6+ years of experience building scalable backend systems, leading teams, and delivering impactful features—flexible across frontend and mobile to solve real problems.</p>
+<p>Product-driven engineer with 7+ years of experience building scalable backend systems, leading teams, and delivering impactful features—flexible across frontend and mobile to solve real problems.</p>
 <hr />
 <h2>Work Experience</h2>
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
@@ -198,8 +199,11 @@ hand -->
 <h5>Tech: NodeJS, PostgreSQL, GCP, K8S, BigQuery, Dataflow, CircleCI, Firebase, React, Redux</h5>
 <ul>
 <li>Developed new features for the podcast hosting platform and player, and refactored legacy code to improve maintainability.</li>
-<li>Managed applications running on GCP, K8s. Detected and optimized the slow queries in PostgreSQL.</li>
-<li>Scheduled ETL cron jobs to process and aggregate BigQuery data for performance analytics of podcast shows and podcast rankings.</li>
+<li>Deployed and managed backend services on GCP with Kubernetes (GKE), incorporating monitoring,
+autoscaling, and cost controls. Tuned PostgreSQL query performance and index usage to support high-traffic
+podcast analytics.</li>
+<li>Orchestrated hourly ETL pipelines using BigQuery and Dataflow to aggregate podcast statistics, enabling
+timely insights for editorial and growth teams.</li>
 <li>Migrated database from Firestore (NoSQL) to PostgreSQL with zero downtime, and transformed dirty documents into consistent records.</li>
 <li>Collaborated closely with frontend (React/Redux) and mobile app (Flutter) teams to ensure seamless integration and consistent delivery.</li>
 </ul>
@@ -219,7 +223,7 @@ hand -->
 <ul>
 <li><strong>Languages</strong>: JavaScript (TypeScript), Python  </li>
 <li><strong>Database</strong>: MySQL, PostgreSQL, MongoDB, Firestore, Redis  </li>
-<li><strong>Infrastructure</strong>: GCP (GKE, BigQuery, Dataflow, CloudRun), AWS S3, K8s, Terraform  </li>
+<li><strong>Infrastructure</strong>: GCP (GKE, BigQuery, Dataflow, CloudRun), AWS S3, K8s, Supabase, Railway  </li>
 <li><strong>CI/CD &amp; Tools</strong>: Git, Docker, CircleCI, Firebase, BullMQ, MailGun, TapPay, OneSignal  </li>
 <li><strong>Frontend</strong>: React, Redux, JQuery  </li>
 </ul></div>
