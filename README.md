@@ -19,6 +19,14 @@ Product-driven engineer with 7+ years of experience building scalable backend sy
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
 
+### <span> Crescendo Lab, Senior Software Engineer </span> 2025/07 - Present
+
+##### Tech: Python, FastAPI, React, PostgreSQL, Cloud Run, BigQuery, DBT, Terraform
+
+- Owned end-to-end delivery of the company's usage-based credits billing and settlement system, across GTM, Finance, and Product.
+- Cut automated top-up from 5.4 days to 3 minutes on a reusable billing platform that meters, prices, and bills any product feature in days, with revenue recognition fully automated.
+- Drove a company-wide provisioning platform that lets CSMs activate the correct products straight from HubSpot orders, removing Ops and engineering as onboarding bottlenecks.
+
 ### <span> OneDegree, Senior Backend Engineer </span> 2021/10 - 2025/04
 
 ##### Tech: Python, PostgreSQL, SQLAlchemy, GitLab CI
@@ -64,6 +72,7 @@ timely insights for editorial and growth teams.
 
 - **Languages**: JavaScript (TypeScript), Python  
 - **Database**: MySQL, PostgreSQL, MongoDB, Firestore, Redis  
-- **Infrastructure**: GCP (GKE, BigQuery, Dataflow, CloudRun), AWS S3, K8s, Supabase, Railway  
-- **CI/CD & Tools**: Git, Docker, CircleCI, Firebase, BullMQ, MailGun, TapPay, OneSignal  
+- **Infrastructure**: GCP (GKE, BigQuery, Dataflow, CloudRun), Terraform, AWS S3, K8s, Supabase, Railway  
+- **Data**: BigQuery, DBT  
+- **CI/CD & Tools**: Git, Docker, Terraform, CircleCI, GitLab CI, Claude Code, Firebase, BullMQ, MailGun, TapPay, OneSignal  
 - **Frontend**: React, Redux, JQuery  
