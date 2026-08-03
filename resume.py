@@ -121,9 +121,11 @@ def export_pdf_from_html(html_path: str, pdf_path: str):
         html_file = Path(html_path).resolve().as_uri()
         page.goto(html_file)
 
+        # Page size and margins come from @page in resume.css, so there is one
+        # place to change them; without this flag Chromium ignores @page size.
         page.pdf(
             path=pdf_path,
-            format="A4",
+            prefer_css_page_size=True,
             print_background=True,
             display_header_footer=False,
         )
