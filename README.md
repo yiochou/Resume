@@ -5,13 +5,14 @@
 <!-- The unordered list immediately after the h1 will be formatted on a single
 line. It is intended to be used for contact details -->
 
-- (+886)927309966
-- yiochou1227@gmail.com
+- <span class="contact contact-phone">+886 927 309 966</span>
+- <a class="contact contact-email" href="mailto:hi@yiochou.com">hi@yiochou.com</a>
+- <a class="contact contact-linkedin" href="https://www.linkedin.com/in/yio-c-8956111a3/">LinkedIn</a>
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
-Product-driven engineer with 7+ years of experience building scalable backend systems, leading teams, and delivering impactful features—flexible across frontend and mobile to solve real problems.
-
+Product-minded engineer with 7+ years across billing, insurance, and podcast platforms. Ships end to end, from business requirements to production.
+Builds with AI agents daily; looking to build agent products next.
 ---
 
 ## Work Experience
@@ -21,42 +22,35 @@ hand -->
 
 ### <span> Crescendo Lab, Senior Software Engineer </span> 2025/07 - Present
 
-##### Tech: Python, FastAPI, React, PostgreSQL, Cloud Run, BigQuery, DBT, Terraform
+##### Tech: Python, FastAPI, React, PostgreSQL, Cloud Run, BigQuery, dbt, Terraform, Pub/Sub
 
-- Owned end-to-end delivery of the company's usage-based credits billing and settlement system, across GTM, Finance, and Product.
-- Cut automated top-up from 5.4 days to 3 minutes on a reusable billing platform that meters, prices, and bills any product feature in days, with revenue recognition fully automated.
-- Drove a company-wide provisioning platform that lets CSMs activate the correct products straight from HubSpot orders, removing Ops and engineering as onboarding bottlenecks.
+- Built the usage-based credits billing system from GTM/Finance requirements to production, cutting top-up from ~5 days to 3 minutes and automating revenue recognition.
+- Rebuilt billing as a shared platform that any new paid feature can plug into in a day.
+- Automated product provisioning from HubSpot orders, a setup step CSMs previously configured by hand.
 
 ### <span> OneDegree, Senior Backend Engineer </span> 2021/10 - 2025/04
 
 ##### Tech: Python, PostgreSQL, SQLAlchemy, GitLab CI
 
-- Led a team of 4 backend engineers, overseeing task planning, delegation, and mentoring team members in both technical growth and career development.
-- Refactored and modernized core insurance modules to improve product usability, and aligned module design with business domain requirements.
-- Designed and built a flexible rule engine enabling users to define custom rules in Python, while also driving the delivery of key insurance-related features.
-- Proactively developed internal tools to streamline development workflows and reduce friction in day-to-day engineering tasks.
-- Drove legacy code cleanup by aligning with PMs and senior engineers to clarify business logic and improve maintainability.
+- Led a team of 4 backend engineers; owned sprint planning and mentored the team on system design and career growth.
+- Built a rule engine that lets users define custom insurance rules in Python, replacing hard-coded product logic.
+- Refactored core insurance modules around business domains, working with PMs to pin down undocumented logic before each change.
+- Built deployment tooling and status dashboards that the whole engineering team used daily.
 
 ### <span> SoundOn, Backend Engineer </span> 2020/07 - 2021/07
 
-##### Tech: NodeJS, PostgreSQL, GCP, K8S, BigQuery, Dataflow, CircleCI, Firebase, React, Redux
+##### Tech: Node.js, PostgreSQL, GCP, Kubernetes, BigQuery, Dataflow, CircleCI, Firebase, React, Redux
 
-- Developed new features for the podcast hosting platform and player, and refactored legacy code to improve maintainability.
-- Deployed and managed backend services on GCP with Kubernetes (GKE), incorporating monitoring,
-autoscaling, and cost controls. Tuned PostgreSQL query performance and index usage to support high-traffic
-podcast analytics.
-- Orchestrated hourly ETL pipelines using BigQuery and Dataflow to aggregate podcast statistics, enabling
-timely insights for editorial and growth teams.
-- Migrated database from Firestore (NoSQL) to PostgreSQL with zero downtime, and transformed dirty documents into consistent records.
-- Collaborated closely with frontend (React/Redux) and mobile app (Flutter) teams to ensure seamless integration and consistent delivery.
+- Migrated the platform database from Firestore to PostgreSQL with zero downtime, normalizing inconsistent documents during the cutover.
+- Built hourly ETL pipelines on BigQuery and Dataflow, aggregating listening stats to power the creator analytics dashboard and podcast leaderboard.
+- Ran backend services on GKE and tuned PostgreSQL queries and indexes for high-traffic podcast analytics.
 
 ### <span> LJIT.io, Frontend/Backend Engineer </span> 2018/05 - 2020/02
 
-##### Tech: NodeJS, Express.js, MongoDB, MySQL, Redis, AWS S3, React/Redux, Webpack, Docker
+##### Tech: Node.js, Express.js, MongoDB, MySQL, Redis, AWS S3, React/Redux, Webpack, Docker
 
-- Worked in an outsourcing environment, contributing to diverse projects across frontend and backend, leveraging a wide range of technologies.
-- Built smart contracts, React/web3 frontends, and scalable backends across blockchain, streaming, and gaming projects.
-- Took an active part in study group, and shared topics like SOLID, React/Redux, Database Transaction/Isolation and so on.
+- Built smart contracts, React/web3 frontends, and backend services across blockchain, streaming, and gaming client projects.
+- Ran the team's study group, presenting on SOLID, database isolation levels, and React state management.
 
 ---
 
@@ -64,15 +58,15 @@ timely insights for editorial and growth teams.
 
 ### <span> National Central University </span> 2013/09 - 2017/07
 
-##### **Bachelor of Computer Science**.
+##### **Bachelor of Computer Science**
 
 ---
 
 ## Skills
 
-- **Languages**: JavaScript (TypeScript), Python  
-- **Database**: MySQL, PostgreSQL, MongoDB, Firestore, Redis  
-- **Infrastructure**: GCP (GKE, BigQuery, Dataflow, CloudRun), Terraform, AWS S3, K8s, Supabase, Railway  
-- **Data**: BigQuery, DBT  
-- **CI/CD & Tools**: Git, Docker, Terraform, CircleCI, GitLab CI, Claude Code, Firebase, BullMQ, MailGun, TapPay, OneSignal  
-- **Frontend**: React, Redux, JQuery  
+- **Languages**: Python, TypeScript/JavaScript
+- **Backend**: FastAPI, Node.js/Express, SQLAlchemy, REST APIs, event-driven services, BullMQ
+- **Data & Storage**: PostgreSQL, MySQL, MongoDB, Redis, BigQuery, dbt, Dataflow
+- **Infrastructure**: GCP (GKE, Cloud Run, Pub/Sub), Kubernetes, Docker, Terraform, CircleCI, GitLab CI
+- **Frontend**: React, Redux
+- **Tooling**: Claude Code
