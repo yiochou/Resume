@@ -1,3 +1,3 @@
 .PHONY: resume
 resume:
-	@python3 resume.py
+	@uv run --with-requirements requirements.txt python resume.py
