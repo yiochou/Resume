@@ -11,8 +11,8 @@ line. It is intended to be used for contact details -->
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
-Product-minded engineer with 7+ years across billing, insurance, and podcast platforms. Ships end to end, from business requirements to production.
-Builds with AI agents daily; looking to build agent products next.
+Product-minded backend engineer, 7+ years turning fuzzy requirements into self-serve platforms: a billing platform for AI features doing NT$5M+/month in usage fees, and a rule engine insurers configure without engineering releases. Seeking senior backend roles on AI-focused product teams.
+
 ---
 
 ## Work Experience
@@ -24,8 +24,8 @@ hand -->
 
 ##### Tech: Python, FastAPI, React, PostgreSQL, Cloud Run, BigQuery, dbt, Terraform, Pub/Sub
 
-- Built the usage-based credits billing system from GTM/Finance requirements to production, cutting top-up from ~5 days to 3 minutes and automating revenue recognition.
-- Rebuilt billing as a shared platform that any new paid feature can plug into in a day.
+- Built the usage-based credits billing system from GTM/Finance requirements to production, cutting top-up from ~5 days to 3 minutes. It now processes NT$5M+/month, with automated revenue recognition.
+- Rebuilt billing as a shared platform. Any new paid feature can plug in and start charging within a day.
 - Automated product provisioning from HubSpot orders, a setup step CSMs previously configured by hand.
 
 ### <span> OneDegree, Senior Backend Engineer </span> 2021/10 - 2025/04
@@ -33,8 +33,8 @@ hand -->
 ##### Tech: Python, PostgreSQL, SQLAlchemy, GitLab CI
 
 - Led a team of 4 backend engineers; owned sprint planning and mentored the team on system design and career growth.
-- Built a rule engine that lets users define custom insurance rules in Python, replacing hard-coded product logic.
-- Refactored core insurance modules around business domains, working with PMs to pin down undocumented logic before each change.
+- Built a rule engine for underwriting and pricing rules, with Python scripts for complex cases. Insurers ship rule changes themselves, no engineering release needed.
+- Refactored core insurance modules around business domains, clarifying undocumented logic with PMs before each change.
 - Built deployment tooling and status dashboards that the whole engineering team used daily.
 
 ### <span> SoundOn, Backend Engineer </span> 2020/07 - 2021/07
