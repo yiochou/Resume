@@ -11,7 +11,7 @@ line. It is intended to be used for contact details -->
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
-Product-minded backend engineer, 7+ years turning fuzzy requirements into production systems: usage-based billing at NT$5M+/month, and a rule engine insurers change without a release. Seeking senior backend roles on AI product teams.
+Product-minded backend engineer with 7+ years turning fuzzy requirements into production systems. Built usage-based billing at NT$5M+/month and a rule engine insurers change without a release. Seeking senior backend roles on AI product teams.
 
 ---
 
@@ -33,7 +33,7 @@ hand -->
 ##### Tech: Python, PostgreSQL, SQLAlchemy, GitLab CI
 
 - Led a team of 4 backend engineers; owned sprint planning and mentored the team on system design and career growth.
-- Built a rule engine for underwriting and pricing rules, with Python scripts for complex cases. Insurers ship rule changes themselves, no engineering release needed.
+- Built a rule engine that runs insurer-written Python in a sandbox. Underwriting and pricing changes ship without an engineering release.
 - Refactored core insurance modules around business domains, clarifying undocumented logic with PMs before each change.
 - Built deployment tooling and status dashboards that the whole engineering team used daily.
 
