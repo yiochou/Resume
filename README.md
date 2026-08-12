@@ -11,7 +11,7 @@ line. It is intended to be used for contact details -->
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
-Product-minded backend engineer, 7+ years turning fuzzy requirements into self-serve platforms: a billing platform for AI features doing NT$5M+/month in usage fees, and a rule engine insurers configure without engineering releases. Seeking senior backend roles on AI-focused product teams.
+Product-minded backend engineer, 7+ years turning fuzzy requirements into production systems: usage-based billing at NT$5M+/month, and a rule engine insurers change without a release. Seeking senior backend roles on AI product teams.
 
 ---
 
@@ -24,7 +24,7 @@ hand -->
 
 ##### Tech: Python, FastAPI, React, PostgreSQL, Cloud Run, BigQuery, dbt, Terraform, Pub/Sub
 
-- Built the usage-based credits billing system from GTM/Finance requirements to production, cutting top-up from ~5 days to 3 minutes. It now processes NT$5M+/month, with automated revenue recognition.
+- Built the usage-based credits billing system from GTM/Finance requirements to production, cutting top-up from ~5 days to 3 minutes. It processes NT$5M+/month across 13 paid features, with automated revenue recognition.
 - Rebuilt billing as a shared platform. Any new paid feature can plug in and start charging within a day.
 - Automated product provisioning from HubSpot orders, a setup step CSMs previously configured by hand.
 
