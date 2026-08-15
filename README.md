@@ -11,7 +11,7 @@ line. It is intended to be used for contact details -->
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
-Product-minded backend engineer with 7+ years turning fuzzy requirements into production systems. Built usage-based billing at NT$5M+/month and a rule engine insurers change without a release. Seeking senior backend roles on AI product teams.
+Product-minded backend engineer with 7+ years turning fuzzy requirements into production systems. Built usage-based billing at NT$5M+/month and a rule engine that insurers reconfigure without a release. Seeking senior backend roles on AI product teams.
 
 ---
 
