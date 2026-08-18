@@ -33,7 +33,7 @@ hand -->
 ##### Tech: Python, PostgreSQL, SQLAlchemy, GitLab CI
 
 - Led a team of 4 backend engineers; owned sprint planning and mentored the team on system design and career growth.
-- Built a rule engine that runs insurer-written Python in a sandbox. Underwriting and pricing changes ship without an engineering release.
+- Built a rule engine that compiles insurer-authored Excel rules to sandboxed Python, with hand-written Python for complex cases. It drives underwriting, pricing, claims, and dry runs, and changes ship without an engineering release.
 - Refactored core insurance modules around business domains, clarifying undocumented logic with PMs before each change.
 - Built deployment tooling and status dashboards that the whole engineering team used daily.
 
