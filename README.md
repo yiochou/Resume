@@ -20,7 +20,7 @@ Product-minded backend engineer with 7+ years turning fuzzy requirements into pr
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
 
-### <span> Crescendo Lab, Senior Software Engineer </span> 2025/07 - Present
+### <span> Crescendo Lab, Senior Software Engineer </span> 2025/07 - 2026/06
 
 ##### Tech: Python, FastAPI, React, PostgreSQL, Cloud Run, BigQuery, dbt, Terraform, Pub/Sub
 
